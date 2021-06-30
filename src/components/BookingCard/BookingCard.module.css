@@ -1,0 +1,305 @@
+.bookingCardWrapper {
+  min-height: 300px;
+
+  margin-bottom: 70px;
+}
+
+.bookingCardWrapper:last-child {
+  margin-bottom: 0;
+}
+
+.bookingCard {
+  width: 100%;
+  min-height: 410px;
+  border-radius: 5px;
+
+  padding: 12px 35px;
+
+  border: 1px solid rgba(183, 183, 183, 0.3);
+  background-color: white;
+}
+
+.bookingCard .hrOne,
+.bookingCard .hrTwo {
+  width: 107%;
+  position: relative;
+  background-color: rgba(183, 183, 183, 0.3);
+  border: 1px solid rgba(183, 183, 183, 0.3);
+}
+
+.bookingCard .hrOne {
+  left: -35px;
+  top: -79px;
+}
+
+.bookingCard .hrTwo {
+  left: -35px;
+  top: -45px;
+}
+
+.bookingCardHeader {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+}
+
+.headerTitle {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookingTitle {
+  margin: 0px;
+  font-weight: 800;
+  font-size: 36px;
+}
+.bookingDate {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #878787;
+}
+
+.bookingDate span {
+  font-size: 18px;
+  font-weight: 800;
+  color: #878787;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 179px;
+}
+
+.cardContentName {
+  text-align: left;
+  width: 282px;
+}
+
+.cardContentName h2 {
+  margin-bottom: 7px;
+  font-size: 24px;
+}
+
+.houseAddress {
+  font-size: 14px;
+  margin-bottom: 23px;
+}
+
+.waitingStatus,
+.cancelStatus,
+.approveStatus,
+.waitingPaymentStatus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 12px;
+  width: 112px;
+  height: 24px;
+
+  border-radius: 2px;
+}
+
+.waitingStatus {
+  background: rgba(247, 148, 30, 0.1);
+  color: rgb(247, 148, 30);
+}
+
+.cancelStatus {
+  background: rgba(255, 7, 66, 0.1);
+  color: rgb(255, 7, 66);
+}
+
+.approveStatus {
+  background: rgba(10, 207, 131, 0.1);
+  color: rgb(10, 207, 131);
+}
+
+.waitingPaymentStatus {
+  background: rgba(236, 122, 122, 0.1);
+
+  color: rgb(236, 122, 122);
+}
+
+.cardContentDate {
+  display: flex;
+  flex-direction: row;
+
+  width: 200px;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 0;
+  height: 120px;
+
+  margin-right: 25px;
+}
+
+.dateWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 120px;
+}
+
+.checkinWrapper h3,
+.checkoutWrapper h3 {
+  margin: 5px;
+  font-size: 18px;
+}
+
+.checkinWrapper p,
+.checkoutWrapper p {
+  font-size: 14px;
+  color: #959595;
+}
+
+.cardContentVariant {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 120px;
+}
+
+.amenities h3,
+.duration h3 {
+  text-align: left;
+  margin: 5px 0px 5px 0px;
+  font-size: 18px;
+}
+
+.amenities p,
+.duration p {
+  text-align: left;
+  margin: 0px;
+  font-size: 14px;
+  color: #959595;
+}
+
+.cardContentProof {
+  width: 230px;
+  height: 100%;
+  padding: 0 45px;
+}
+
+.imageWrapper {
+  width: 140px;
+  height: 140px;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+
+  box-sizing: border-box;
+  border: 3px solid black;
+
+  object-fit: cover;
+  background-color: lightgray;
+}
+
+.cardContentProof p {
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.cardTable {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardTableLeft {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.tableCol {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 60px;
+}
+
+.tableColLong {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 150px;
+  margin-right: 60px;
+}
+
+.tableHeader {
+  font-weight: 800;
+  font-size: 18px;
+
+  margin-bottom: 12px;
+}
+
+.tableContent {
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.cardTableRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 280px;
+}
+
+.totalText,
+.totalPrice {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.totalText:last-child,
+.totalPrice:last-child {
+  margin-bottom: 0;
+}
+
+.buttonWrapper {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonPay {
+  height: 50px;
+  width: 235px;
+  color: white;
+  cursor: pointer;
+  border: none;
+
+  font-weight: 800;
+  font-size: 18px;
+
+  background: #5a57ab;
+  border-radius: 5px;
+
+  transition: 300ms;
+}
+
+.buttonPay:hover {
+  background: darkslateblue;
+}

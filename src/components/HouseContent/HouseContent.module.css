@@ -1,0 +1,250 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 949px;
+  height: 100%;
+
+  padding: 20px 200px 20px 200px;
+
+  background-color: #f9f9f9;
+}
+
+.imageWrapper {
+  display: grid;
+  grid-template-areas: "firstimage firstimage firstimage" "firstimage firstimage firstimage" "secondimage thirdimage fourthimage";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 12px 14px;
+
+  width: 100%;
+  height: 400px;
+
+  border-radius: 5px;
+  /* background-color: wheat; */
+
+  margin-bottom: 40px;
+}
+
+.imageWrapper img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.firstImageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  grid-area: firstimage;
+  background-color: gray;
+  overflow: hidden;
+
+  border-radius: 5px;
+}
+
+.firstImage {
+  width: 100%;
+  object-fit: cover;
+}
+
+.secondImageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  grid-area: secondimage;
+  background-color: gray;
+  overflow: hidden;
+
+  border-radius: 5px;
+}
+.secondImage {
+  width: 100%;
+  object-fit: cover;
+}
+
+.thirdImageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  grid-area: thirdimage;
+  background-color: gray;
+  overflow: hidden;
+
+  border-radius: 5px;
+}
+
+.thirdImage {
+  width: 100%;
+  object-fit: cover;
+}
+
+.fourthImageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  grid-area: fourthimage;
+  background-color: gray;
+  overflow: hidden;
+
+  border-radius: 5px;
+}
+
+.fourthImage {
+  width: 100%;
+  object-fit: cover;
+}
+
+.houseContentWrapper {
+  /* background-color: blueviolet; */
+  padding: 0 20px;
+
+  border-radius: 5px;
+  margin-bottom: 41px;
+}
+
+.name {
+  height: 66px;
+
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+
+  margin-bottom: 24px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 800;
+
+  margin-bottom: 12px;
+}
+
+.address {
+  display: flex;
+  width: 290px;
+
+  font-size: 13px;
+  color: #a8a8a8;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.subtitleRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 288px;
+}
+
+.spec {
+  width: 63px;
+  height: 45px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.specTitle {
+  font-size: 13px;
+  color: #a8a8a8;
+}
+
+.specWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.specText {
+  margin-right: 10px;
+}
+
+.descTitle {
+  margin-bottom: 8px;
+}
+
+.descriptionWrapper {
+  /* background-color: chartreuse; */
+  border-radius: 5px;
+
+  margin-bottom: 50px;
+}
+
+.desc {
+  font-size: 14px;
+  text-align: left;
+  color: #a8a8a8;
+}
+
+.book {
+  display: flex;
+  width: 100%;
+  height: 50px;
+
+  justify-content: flex-end;
+}
+
+.booknow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 213px;
+  height: 50px;
+
+  color: #fff;
+  background-color: #5a57ab;
+
+  font-size: 18px;
+  font-weight: 800;
+  border: none;
+
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.booknow:hover {
+  cursor: pointer;
+  background-color: darkslateblue;
+}
+
+.bookguest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 213px;
+  height: 50px;
+
+  color: #fff;
+  background-color: grey;
+
+  font-size: 18px;
+  font-weight: 800;
+  border: none;
+
+  border-radius: 5px;
+  text-decoration: none;
+
+  cursor: not-allowed;
+}

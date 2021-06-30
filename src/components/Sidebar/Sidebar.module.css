@@ -1,0 +1,291 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 25%;
+  height: calc(100vh - 120px);
+
+  padding: 20px 25px 0 20px;
+
+  background-color: #ffffff;
+}
+
+.duration {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+
+  margin-bottom: 20px;
+}
+
+.durationTitle {
+  text-align: left;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.durationOptions {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.durationOption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  background: rgba(196, 196, 196, 0.25);
+}
+
+.durationRadio {
+  display: none;
+}
+
+.durationLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.durationLabel:hover {
+  background-color: #5a57ab;
+  color: white;
+  cursor: pointer;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+
+  margin-bottom: 35px;
+}
+
+.dateTitle {
+  text-align: left;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.room {
+  text-align: left;
+}
+
+.roomTitle {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.roomSubTitle {
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 19px;
+
+  color: #929292;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  margin-bottom: 10px;
+}
+
+.roomOptions {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+}
+
+.roomOption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  background: rgba(196, 196, 196, 0.25);
+
+  margin-bottom: 10px;
+}
+
+.roomRadio {
+  display: none;
+}
+
+.roomLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.roomLabel:hover {
+  background-color: #5a57ab;
+  color: white;
+  cursor: pointer;
+}
+
+.amenities {
+  text-align: left;
+}
+
+.amenitiesTitle {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 800;
+
+  line-height: 33px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  margin-bottom: 10px;
+}
+
+.amenitiesOption {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+}
+
+.amenitiesLabel {
+  font-size: 14px;
+  color: #929292;
+}
+
+.amenitiesCheckBox {
+  width: 15px;
+  height: 15px;
+
+  border-radius: 5px;
+  border: 1px solid #c4c4c4;
+  outline: none;
+}
+
+.amenitiesCheckBox:hover {
+  cursor: pointer;
+}
+
+.amenitiesCheckBox:checked {
+  color: #5a57ab;
+}
+
+.budgetTitle {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 800;
+
+  line-height: 33px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+.budgetForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 30px;
+}
+
+.budgetForm > input {
+  -webkit-appearance: none;
+  width: 180px;
+  height: 40px;
+
+  padding: 0 16px;
+
+  font-weight: 600;
+  font-size: 14px;
+
+  background: rgba(196, 196, 196, 0.25);
+  border: none;
+  border-radius: 5px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.budgetForm > input:focus {
+  outline: 0;
+}
+
+.budgetForm > span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.apply {
+  position: relative;
+  left: 108px;
+  width: 100%;
+}
+
+.applyButton {
+  font-size: 14px;
+  color: white;
+  font-weight: 900;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.applyButton {
+  background-color: #5a57ab;
+}
+
+.applyButton:hover {
+  background-color: darkslateblue;
+}

@@ -1,0 +1,78 @@
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  z-index: 1;
+
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.actionModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  width: 950px;
+  min-height: 500px;
+
+  border-radius: 10px;
+  z-index: 9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.actionWrapper {
+  width: 99%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  padding: 20px 40px 20px 40px;
+  background-color: #fff;
+}
+
+.actionWrapper button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.cancel {
+  background-color: rgb(255, 7, 66);
+  transition: 300ms;
+}
+.cancel:hover {
+  background-color: rgba(255, 7, 66, 0.5);
+}
+
+.approve {
+  background-color: rgb(10, 207, 131);
+  transition: 300ms;
+}
+
+.approve:hover {
+  background-color: rgba(10, 207, 131, 0.5);
+}
+
+p,
+span {
+  font-weight: 400;
+  color: rgb(49, 47, 47) !important;
+}

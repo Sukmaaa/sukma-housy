@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  /* height: calc(1200px - 120px); */
+
+  padding: 70px 200px;
+
+  background-color: #f9f9f9;
+}
+
+.bookingWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1040px;
+  height: auto;
+  /* background-color: salmon; */
+}

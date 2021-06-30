@@ -1,0 +1,26 @@
+export const users = [
+  {
+    id: 1,
+    fullname: "user",
+    username: "user",
+    password: "user",
+    email: "user@gmail.com",
+    gender: "Male",
+    address: "Tangerang",
+    phone: "0823421231",
+    status: "user",
+    booking: [],
+  },
+  {
+    id: 2,
+    fullname: "owner",
+    username: "owner",
+    password: "owner",
+    email: "owner@gmail.com",
+    gender: "Male",
+    address: "Tangerang",
+    phone: "083412321",
+    status: "owner",
+    booking: [],
+  },
+];
